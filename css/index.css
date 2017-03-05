@@ -1,0 +1,354 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*第一屏开始*/
+#container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	transition: top 1s;
+}
+#container .box{
+	width: 100%;
+	height: 100%;
+}
+#container .box.one{
+	position: relative;
+	background: url(../img/onebg.png) no-repeat;
+	background-size: 100% 100%;
+}
+#container .box.one .top{
+	width: 70%;
+	height: 50%;
+	border: 8px solid white;
+	position: relative;
+	top: 5%;
+	left: 50%;
+	margin-left: -35%;
+	overflow: hidden;
+	animation-delay: 0.3s;
+	animation-duration: 1s;
+}
+#container .box.one .top img {
+	width: 100%;
+}
+
+#container .box.one .bottom {
+	width: 70%;
+	height: 30%;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	margin-top: 8%;
+	position: relative;
+}
+
+#container .box.one .bottom .jiezhi {
+	width: 35%;
+	position: absolute;
+	top: 0px;
+	left: 5%;
+	animation-delay: 2.3s;
+	animation-duration: 1s;
+}
+
+#container .box.one .bottom .marry {
+	width: 100%;
+	position: absolute;
+	top: 13%;
+	left: 0;
+	animation-delay:1.3s;
+	animation-duration: 1s;
+}
+
+#container .box.one .bottom .time {
+	width: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25%;
+	animation-delay: 3.3s;
+	animation-duration: 1s;
+}
+/*第一屏结束*/
+/*第二屏开始*/
+
+.box.two {
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.box.two .left {
+	width: 30%;
+	height: 20%;
+	border: 9px solid #ffebeb;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	overflow: hidden;
+	z-index: 1;
+	animation-delay: 0s;
+	animation-duration: 1s;
+}
+
+.box.two .left img {
+	width: 100%;
+}
+
+.box.two .right {
+	width: 60%;
+	height: 80%;
+	border: 9px solid #ffebeb;
+	background: #FFEBEB;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+	animation-delay: 1s;
+	animation-duration: 1.5s;
+}
+
+.box.two .right .top {
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	margin-bottom: 3%;
+}
+
+.box.two .right .top img {
+	width: 100%;
+}
+
+.box.two .right>img {
+	width: 100%;
+	float: left;
+	margin-top: 0.5%;
+}
+
+.box.two .right>img.twoline1{
+	animation-delay: 2.5s;
+	animation-duration: 0.5s;
+}
+.box.two .right>img.t1{
+	animation-delay: 3s;
+	animation-duration: 1s;
+}
+.box.two .right>img.twoline2{
+	animation-delay: 4s;
+	animation-duration: 0.5s;
+}
+.box.two .right>img.t2{
+	animation-delay: 4.5s;
+	animation-duration: 1s;
+}
+.box.two .right>img.twoline3{
+	animation-delay: 5s;
+	animation-duration: 0.5s;
+}
+.box.two .right>img.t3{
+	animation-delay:5.5s;
+	animation-duration: 1s;
+}
+.box.two .right>img.twoline4{
+	animation-delay: 6.5s;
+	animation-duration: 0.5s;
+}
+.box.two .right>img.t4{
+	animation-delay: 7s;
+	animation-duration: 1s;
+}
+.box.two .right>img.twoline5{
+	animation-delay: 8s;
+	animation-duration: 0.5s;
+}
+.box.two .right>img.t5{
+	animation-delay: 8.5s;
+	animation-duration: 1s;
+}
+.box.two .windmill {
+	width: 30%;
+	position: absolute;
+	right: 2%;
+	top: 43%;
+	animation-delay: 6s;
+	animation-duration: 1.5s;
+}
+
+
+/*第二屏结束*/
+
+/*第三屏开始*/
+
+.box.three {
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.box.three>img.dog {
+	position: absolute;
+	right: 21%;
+	top: 53%;
+	width: 30%;
+	animation-delay: 1.5s;
+	animation-duration: 2s;
+}
+
+.box.three>img.aini {
+	width: 70%;
+	position: absolute;
+	top: 71%;
+	left: 24%;
+	animation-delay: 3.5s;
+	animation-duration: 1s;
+}
+
+.box.three>img.yibeizi {
+	width: 70%;
+	position: absolute;
+	top: 84%;
+	left: 33%;
+	animation-delay: 4.5s;
+	animation-duration: 1s;
+}
+
+.box.three .top {
+	width: 70%;
+	height: 52%;
+	position: relative;
+	top: 15%;
+	left: 50%;
+	margin-left: -35%;
+	border: 9px solid #ffebeb;
+	overflow: hidden;
+	animation-delay: 0s;
+	animation-duration: 1.5s;
+}
+
+.box.three .top>img {
+	width: 100%;
+}
+/*第三屏结束*/
+/*第四屏开始*/
+.box.four{
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+}
+.box.four div#box{
+	position: relative;
+	top: 8%;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 70%;
+	border: 9px solid #ffebeb;
+	
+}
+.box.four div#box img{
+	width: 100%;
+	height: 100%;
+	animation-delay: 0s;
+	animation-duration: 2.5s;
+}
+.box.four div#box .topleft{
+	width: 50%;
+	height: 30%;
+	float: left;
+	
+}
+.box.four div#box .topright{
+	width: 50%;
+	height: 60%;
+	float: right;
+	
+}
+.box.four div#box .bottomleft{
+	width: 50%;
+	height:70%;
+	float: left;
+	
+}
+.box.four div#box .bottomright{
+	width: 50%;
+	float: right;
+	height: 40%;
+	
+}
+.box.four div.wenzi{
+	margin: 0 auto;
+	margin-top: 12%;
+	width: 80%;
+	height: 10%;
+	/*border: 1px solid black;*/
+	animation-delay: 2s;
+	animation-duration: 2s;
+}
+.box.four div.wenzi img{
+	width:50% ;
+	float: left;
+}
+/*第四屏结束*/
+
+/*音乐*/
+
+#music {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
+}
+
+#music .music_bg {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#music .music_pic {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	animation: musicRun 3s infinite linear;
+}
+
+@keyframes musicRun {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*音乐结束*/
+
+
+/*声明*/
+
+p.copy {
+	width: 100%;
+	position: fixed;
+	bottom: 0%;
+	left: 0;
+	text-align: center;
+	color: white;
+	z-index: 1;
+	font-size: 4.5vw;
+}
+
+
+/*声明结束*/
